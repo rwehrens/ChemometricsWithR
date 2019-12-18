@@ -8,6 +8,4 @@ Sciences" by R. Wehrens, Springer UseR! Series, 2nd edition.
 
 Install this package by issuing the following lines from an R console:
 
-install.packages("remotes")
-library(remotes)
-install_github("rwehrens/ChemometricsWithR")
+R> install.packages("remotes"); library(remotes); install_github("rwehrens/ChemometricsWithR")
