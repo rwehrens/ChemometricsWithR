@@ -1,6 +1,4 @@
 # ChemometricsWithR
-[![Build Status](https://travis-ci.org/rwehrens/ChemometricsWithR.svg?branch=master)](https://travis-ci.org/rwehrens/ChemometricsWithR)
-
 
 Functions, scripts and data sets accompanying the book "Chemometrics
 with R - Multivariate Data Analysis in the Natural Sciences and Life
