@@ -1,0 +1,26 @@
+## Import all packages listed as Imports or Depends
+importFrom("pls", "MSEP", "plsr", "scores")
+importFrom("kohonen", "classvec2classmat", "classmat2classvec")
+importFrom("MASS", "lda", "ginv")
+
+## import from default packages
+importFrom("graphics", "abline", "arrows", "axis", "barplot", "box",
+           "par", "plot", "points", "text", 
+           "layout", "segments", "rect", "image")
+importFrom("grDevices", "axisTicks", "terrain.colors")
+importFrom("stats", "embed", "quantile", "runif", "loadings", "biplot")
+
+## export functions and generics defined in ChemometricsWithR
+exportPattern("PCA", "variances", "screeplot", "reconstruct", "project",
+              "efa", "opa", "mcr", "SAstep", "SAfun", "SAfun2",
+              "GA.init.pop", "GA.select", "GA.XO", "GA.mut", "GAfun",
+              "GAfun2", "lda.loofun", "pls.cvfun", "AdjRkl", "rms",
+              "err.rate", "gini", "pick.peaks", "scores",
+              "scoreplot", "loadingplot", "loadings", "lcmsimage")
+S3method("biplot", "PCA")
+S3method("loadingplot", "PCA")
+S3method("scoreplot", "PCA")
+S3method("loadings", "PCA")
+S3method("scores", "PCA")
+S3method("summary", "PCA")
+

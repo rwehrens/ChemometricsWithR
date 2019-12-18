@@ -1,0 +1,32 @@
+Version 0.2.0
+- to be used with the second edition of CWR (Springer)
+- reunited with data sets from ChemometricsWithRData, which has become obsolete
+- no longer on CRAN, to be installed from github
+
+Version 0.1.13
+- added scores to the list of imported (from pls) and exported
+  functions so that the original behaviour was restored (thanks to
+  Sergio Oller)
+- fixed a bug in the efa function (thanks to Ambarish Nag)
+
+Version 0.1.12
+- removed ChemometricsWithRData as a dependency, the package is no
+longer on CRAN but still accessible through github
+
+Version 0.1.8
+- updated maintainers' email address
+- fixed NAMESPACE issues for packages MASS and pls
+- added year to book citation
+
+Version 0.1.7
+- ChemometricsWithR no longer uses "Depends" for all
+  packages that are mentioned in the book, but rather "Suggests" these
+  other packages. This means that installation of ChemometricsWithR will
+  not automatically imply installation of the others. Examples in the
+  manual pages will now check the presence of the other packages and if
+  a particular package is not found, an appropriate message will be
+  printed to the screen. In addition, several datasets from other R
+  packages have been included in the ChemometricsWithRData package so
+  that unnecessary loading of packages (only for the data) is avoided.
+- sd(matrix) has been replaced by apply(matrix, 2, sd) in the
+  chapter3, chapter7 and chapter11 demos
