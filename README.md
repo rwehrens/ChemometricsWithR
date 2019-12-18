@@ -1,6 +1,5 @@
 # ChemometricsWithR
 [![Build Status](https://travis-ci.org/rwehrens/ChemometricsWithR.svg?branch=master)](https://travis-ci.org/rwehrens/ChemometricsWithR)
-[![](http://www.r-pkg.org/badges/version/ChemometricsWithR)](http://www.r-pkg.org/pkg/ChemometricsWithR)
 
 
 Functions, scripts and data sets accompanying the book "Chemometrics
